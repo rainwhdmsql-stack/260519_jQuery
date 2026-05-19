@@ -13,11 +13,15 @@ $(function () {
   });
   //  fadeIn
   $(".fadeIn").click(function () {
-    $(".box").fadeIn(800);
+    $(".box").fadeIn(1000);
   });
   //  fadeOut
   $(".fadeOut").click(function () {
-    $(".box").fadeOut(800);
+    $(".box").fadeOut(1000);
+  });
+  //  fadeToggle
+  $(".fadeToggle").click(function () {
+    $(".box").fadeOut(1000);
   });
   //  hide
   $(".hide").click(function () {
@@ -29,6 +33,6 @@ $(function () {
   });
   //  toggle
   $(".toggle").click(function () {
-    $(".box").toggle(800);
+    $(".box").toggle(1000);
   });
 });
